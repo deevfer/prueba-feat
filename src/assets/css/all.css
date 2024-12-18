@@ -472,3 +472,7 @@ h5#beneficiosModalLabel {
     height: 11px;
     width: 14px;
 }
+.modal-footer .__ctaProductos {
+    margin: 10px auto 0;
+    width: 220px;
+}
