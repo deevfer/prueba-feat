@@ -1,0 +1,122 @@
+[
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Caja",
+      "precio": "12.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Manteca",
+      "precio": "10.50",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Miel",
+      "precio": "15.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Rosca de Reyes",
+      "precio": "45.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Fruta",
+      "precio": "18.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Jamón",
+      "precio": "22.50",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Panettone",
+      "precio": "60.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Galletas de Navidad",
+      "precio": "8.00",
+      "categoria": "galletas"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Torta de Nuez",
+      "precio": "35.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Bizcocho de Café",
+      "precio": "25.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Galletas de Chocolate",
+      "precio": "10.00",
+      "categoria": "galletas"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Galletas de Avena",
+      "precio": "9.50",
+      "categoria": "galletas"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan Integral",
+      "precio": "14.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Croissant de Mantequilla",
+      "precio": "20.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Cheesecake de Fresa",
+      "precio": "50.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Cupcake de Vainilla",
+      "precio": "12.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Donas de Azúcar",
+      "precio": "18.00",
+      "categoria": "pasteleria"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Galletas de Mantequilla",
+      "precio": "8.00",
+      "categoria": "galletas"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Pan de Leche",
+      "precio": "15.00",
+      "categoria": "pan"
+  },
+  {
+      "imagen": "productos/productoEjemplo.png",
+      "nombre": "Macarons de Frambuesa",
+      "precio": "25.00",
+      "categoria": "pasteleria"
+  }
+]

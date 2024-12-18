@@ -1,0 +1,474 @@
+*{
+    text-decoration: none !important;
+    outline: 0 !important;
+}
+.row {
+    margin: 0 !important;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Cedarville';
+    src: url('@/assets/fonts/Cedarville.ttf');
+}
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('@/assets/fonts/Gilroy-Bold.ttf');
+}
+  
+@font-face {
+    font-family: 'Gilroy';
+    src: url('@/assets/fonts/Gilroy-Regular.ttf');
+}
+.container-in {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.__body {
+    position: relative;
+    width: 100%;
+}
+.desktop{
+    display: block;
+}
+.responsive{
+    display: none;
+}
+.__header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    padding: 30px 0;
+}
+.__cover {
+    position: relative;
+    width: 100%;
+}
+.__backCover {
+    position: absolute;
+    width: 100%;
+}
+.__backCover img{
+    width: 100%;
+}
+.__coverImg {
+    position: relative;
+    padding: 0px 0px 110px;
+    width: 100%;
+}
+.__coverImg img{
+    width: 100%;
+}
+.__productosTempTitle {
+    width: 70%;
+    margin: 40px auto 130px;
+}
+.__productosTempTitle img{
+    width: 100%;
+}
+.slider img {
+    width: 200px;
+    margin: auto;
+}
+.slider .producto h3 {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin: 30px 0 5px;
+}
+.slider .producto p {
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    text-align: center;
+}
+.__sliderContent {
+    padding: 0 0 180px;
+}
+.slider .producto button {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Gilroy';
+    color: #000;
+    text-decoration: underline !important;
+    transition: all 0.3s;
+    background: transparent;
+    border: none;
+}
+.__ctaProductos {
+    margin: 100px auto 0;
+    width: 220px;
+}
+.__ctaProductos button {
+    border: none;
+    background: #FFC800;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.__ctaProductos button:hover {
+    border-radius: 0px;
+    transition: all 0.3s;
+}
+.__header button {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    margin: 0 20px;
+}
+.__header button.white {
+    color: #fff;
+}
+.__ctaSuscription {
+    position: relative;
+    width: 100%;
+}
+.__ctaSuscriptionImg {
+    width: 50%;
+    position: absolute;
+}
+.__ctaSuscriptionImg img{
+    width: 100%;
+}
+.__suscriptionContent {
+    position: relative;
+    height: 450px;
+}
+.__titleCta h1 {
+    font-size: 36px;
+    font-family: 'GilroyBold';
+    color: #151515;
+    margin: 0 0 40px;
+}
+.__titleCta h1 span {
+    font-family: Cedarville;
+    color: #ffc800;
+}
+.__contentCta p {
+    font-size: 16px;
+    font-family: 'Gilroy';
+    color: #151515;
+}
+.__centerVertical {
+    align-items: center;
+}
+.__btnsCTA {
+    width: 100%;
+}
+.__suscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.__suscribe .__ctaProductos {
+    width: 150px;
+    margin: 0 30px 0 0;
+}
+.__suscribe .__ctaBeneficios button {
+    background: transparent;
+    border: none;
+    text-decoration: underline !important;
+    font-size: 26px;
+    font-family: 'Cedarville';
+}
+.__suscriptionContentBody {
+    height: 450px;
+    display: flex;
+}
+.modal-header {
+    border: none!important;
+    padding: 40px 40px!important;
+}
+.modal {
+    --bs-modal-width: 600px!important;
+}
+h5#beneficiosModalLabel {
+    font-size: 66px;
+    font-family: 'GilroyBold';
+    color: #DEDDDD;
+}
+.modal-content {
+    border-radius: 30px!important;
+}
+.modal-body {
+    padding: 0 40px 40px !important;
+    border: none !important;
+}
+.modal-body ul {
+    padding: 0 !important;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: #151515;
+}
+.modal-body ul li {
+    margin: 10px 0px;
+}
+.modal-footer {
+    justify-content: flex-start!important;
+    padding: 10px 30px 40px!important;
+    border: none!important;
+}
+.modal-footer .__ctaBeneficios button {
+    background: transparent;
+    border: none;
+    text-decoration: underline !important;
+    font-size: 26px;
+    font-family: 'Cedarville';
+}
+.__footer {
+    background: #000;
+    padding: 100px;
+}
+.__logoFooter {
+    width: 160px;
+}
+.__logoFooter img{
+    width: 100%;
+}
+.__textFooter {
+    width: 50%;
+    margin: 30px 0;
+}
+.__textFooter p {
+    font-size: 16px;
+    font-family: 'Gilroy';
+    color: #fff;
+}
+.__social {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.__social img{
+    width: 30px;
+}
+.__coverProductos {
+    position: relative;
+    height: 770px;
+}
+.__backCoverProductos {
+    position: absolute;
+    width: 100%;
+}
+.__backCoverProductos img{
+    width: 100%;
+}
+.__titleCover {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.__titleCover img{
+    width: 100%;
+}
+.__productosCatalogo {
+    padding: 100px;
+    border-radius: 100px 100px 0 0;
+    position: relative;
+    top: -100px;
+    background: #fff;
+}
+.__productList .producto img {
+    width: 200px;
+    margin: auto;
+}
+.__productList .producto h3 {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin: 30px 0 5px;
+}
+.__productList .producto p {
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    text-align: center;
+}
+.__productList .producto button {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Gilroy';
+    color: #000;
+    text-decoration: underline !important;
+    transition: all 0.3s;
+    background: transparent;
+    border: none;
+}
+.__productList .producto {
+    text-align: center;
+    margin: 70px 0 0;
+}
+.__categorias button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    color: #151515;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.__categorias button:hover {
+    background: #F9F9F9;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.__categorias button.active {
+    background: #F9F9F9;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.__titleCarrito h1 {
+    font-size: 26px;
+    font-family: 'GilroyBold';
+    color: #151515;
+}
+.__titleCarrito h1 span{
+    font-family: 'Cedarville';
+    color: #FFC800;
+}
+.__carritoContent {
+    padding: 100px 0;
+    position: relative;
+}
+.__carritoContent thead tr th{
+    border: none;
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    color: #151515;
+}
+.__resumeCarrito {
+    background: #fff;
+    -webkit-box-shadow: 5px 5px 20px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 20px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 20px -11px rgba(0, 0, 0, 0.75);
+    border-radius: 50px;
+    padding: 40px;
+}
+.__resumeCarrito h1 {
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    color: #151515;
+    margin: 0;
+}
+.__resumeContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.__resumeContent h2 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: #151515;
+}
+.__resumeContent h3 {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    color: #151515;
+}
+.__resumeBody {
+    margin: 50px 0;
+}
+.__terms {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+.__terms img {
+    width: 25px;
+}
+.__terms p {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Gilroy';
+    color: #151515;
+}
+.__terms p span {
+    font-family: 'GilroyBold';
+}
+.__ctaProductos.__proceed {
+    margin: 30px auto 0;
+    width: 100%;
+}
+.__tableCarrito tbody th {
+    border: none;
+}
+.__tableCarrito tbody td {
+    border: none;
+}
+.__productInfoTable {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    color: #151515;
+}
+.__productInfoTable img {
+    width: 70px;
+    margin-right: 40px;
+}
+.__productInfoTable p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    font-weight: normal;
+}
+.__tableCarrito td.__qty input {
+    width: 30%;
+    height: 35px;
+    margin: auto;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+.__tableCarrito td.__price  {
+    font-size: 14px;
+    font-family: 'GilroyBold';
+    color: #151515;
+    margin: 0;
+}
+.__tableCarrito td.__delete button {
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Gilroy';
+}
+.__tableCarrito .table>tbody {
+    vertical-align: middle;
+}
+.__emptyCart h1  {
+    font-size: 36px;
+    font-family: 'GilroyBold';
+    color: #151515;
+}
+.Toastify__toast-theme--colored.Toastify__toast--default, .Toastify__toast-theme--light{
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+.Toastify__close-button>svg {
+    fill: currentcolor;
+    height: 11px;
+    width: 14px;
+}
